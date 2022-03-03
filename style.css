@@ -202,6 +202,7 @@ html
 {
     font-size: 15px;   
     font-weight: 700; 
+    text-shadow: 0 0 4px #000;
 }
 
 #content .content-section
@@ -525,7 +526,8 @@ html
     background-color: #000;
     color: #fff;
     border: none;
-
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .send-btn:hover
